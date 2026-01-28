@@ -1,0 +1,27 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# ===== Environment / Secrets =====
+.env
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Qdrant local data (if ever used) =====
+qdrant_storage/
+
+# ===== Logs =====
+*.log
